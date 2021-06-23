@@ -87,9 +87,9 @@ This software comes with a built-in donation of 0.1% per block-reward to support
 Create the database:
 
 ```console
-$ createuser miningcore
-$ sudo -u postgres createdb miningcore
-$ sudo -u postgres psql
+$ sudo adduser miningcore
+$ sudo -u miningcore createdb miningcore
+$ sudo -u miningcore psql
 ```
 
 Inside `psql` execute:
