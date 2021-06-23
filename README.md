@@ -89,7 +89,7 @@ Create the database:
 ```console
 $ createuser miningcore
 $ sudo -u postgres createdb miningcore
-$ sudo -u postgres psql (enter the password for postgres)
+$ sudo -u postgres psql
 ```
 
 Inside `psql` execute:
