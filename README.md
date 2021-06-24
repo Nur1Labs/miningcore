@@ -103,7 +103,7 @@ Import the database schema:
 
 ```console
 $ wget https://raw.githubusercontent.com/coinfoundry/miningcore/master/src/Miningcore/Persistence/Postgres/Scripts/createdb.sql
-$ psql -d miningcore -U miningcore -f createdb.sql
+$ sudo -u miningcore psql miningcore < createdb.sql
 ```
 
 ### Advanced PostgreSQL Database setup
